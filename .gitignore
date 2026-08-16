@@ -1,0 +1,15 @@
+# Given assessment data & templates - not ours to publish
+data/*.csv
+input/*.csv
+
+# score.py is the assessment's proprietary scorer - keep out of a public repo
+score.py
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS
+.DS_Store
